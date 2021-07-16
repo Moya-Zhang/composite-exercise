@@ -12,6 +12,8 @@ public class CompositeMain {
 		File bund = new File("The Bund");
 		File kiyomizu = new File("Kiyomizu Dera");
 		
+		HiddenFile hiddenfile=new HiddenFile("hidden file");
+		
 		shanghai.add(opt);
 		shanghai.add(bund);
 		kyoto.add(kiyomizu);
